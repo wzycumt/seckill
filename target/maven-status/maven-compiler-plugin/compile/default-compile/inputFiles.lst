@@ -10,5 +10,6 @@ E:\Learning\Java\seckill\src\main\java\org\seckill\service\SeckillService.java
 E:\Learning\Java\seckill\src\main\java\org\seckill\enums\SeckillStateEnum.java
 E:\Learning\Java\seckill\src\main\java\org\seckill\exception\RepeatKillExecution.java
 E:\Learning\Java\seckill\src\main\java\org\seckill\exception\SeckillCloseException.java
+E:\Learning\Java\seckill\src\main\java\org\seckill\dao\cache\RedisDao.java
 E:\Learning\Java\seckill\src\main\java\org\seckill\dao\SeckillDao.java
 E:\Learning\Java\seckill\src\main\java\org\seckill\dto\SeckillResult.java

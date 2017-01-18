@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="org.seckill.dao.SeckillDaoTest" time="0.438" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="org.seckill.dao.SeckillDaoTest" time="0.054" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_112\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="E:\Learning\Java\apache-maven-3.3.9\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_112\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\oracle\product\10.2.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;D:\Program Files\mysql-5.7.16-winx64\bin;D:\Program Files\Java\jdk1.8.0_112\bin;E:\Learning\Java\apache-maven-3.3.9\bin;E:\Learning\apache-tomcat-9.0.0.M15\bin;C:\Users\WZY\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_112\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\oracle\product\10.2.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;D:\Program Files\mysql-5.7.16-winx64\bin;D:\Program Files\Java\jdk1.8.0_112\bin;E:\Learning\Java\apache-maven-3.3.9\bin;E:\Learning\apache-tomcat-9.0.0.M15\bin;E:\Learning\Java\Redis-x64-3.2.100;C:\Users\WZY\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,7 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.seckill.dao.SeckillDaoTest" name="testQueryById" time="0.401"/>
-  <testcase classname="org.seckill.dao.SeckillDaoTest" name="testQueryAll" time="0.025"/>
-  <testcase classname="org.seckill.dao.SeckillDaoTest" name="testReduceNumber" time="0.012"/>
+  <testcase classname="org.seckill.dao.SeckillDaoTest" name="testQueryById" time="0.032"/>
+  <testcase classname="org.seckill.dao.SeckillDaoTest" name="testQueryAll" time="0"/>
+  <testcase classname="org.seckill.dao.SeckillDaoTest" name="testReduceNumber" time="0.022"/>
 </testsuite>

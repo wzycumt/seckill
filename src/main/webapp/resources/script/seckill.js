@@ -34,13 +34,15 @@ var seckill = {
                         //2:发送秒杀请求执行秒杀
                         $.post(killUrl, {}, function (result) {
                             console.log("发送秒杀操作");
-                            if (result) {
+                            if (result && result['success']) {
                                 var killResult = result['data'];
                                 var state = killResult['state'];
                                 var stateInfo = killResult['stateInfo'];
                                 console.log(stateInfo);
                                 //显示秒杀结果
                                 node.html('<span class = "label label-success">' + stateInfo + '</span>');
+                            } else{
+                                node.html('<span class = "label label-success">' + result['error'] + '</span>');
                             }
                         });
                     });

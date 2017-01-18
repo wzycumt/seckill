@@ -10,5 +10,6 @@ org\seckill\entity\Seckill.class
 org\seckill\service\SeckillService.class
 org\seckill\service\impl\SeckillServiceImpl.class
 org\seckill\dao\SuccessKilledDao.class
+org\seckill\dao\cache\RedisDao.class
 org\seckill\dto\Exposer.class
 org\seckill\exception\RepeatKillExecution.class

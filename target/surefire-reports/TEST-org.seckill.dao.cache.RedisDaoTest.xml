@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="org.seckill.service.SeckillServiceTest" time="6.401" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="org.seckill.dao.cache.RedisDaoTest" time="3.54" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_112\jre\bin"/>
@@ -63,10 +63,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="org.seckill.service.SeckillServiceTest" name="testSeckillLogic" time="2.151"/>
-  <testcase classname="org.seckill.service.SeckillServiceTest" name="executeSeckillProcedure" time="2.156"/>
-  <testcase classname="org.seckill.service.SeckillServiceTest" name="testExportSeckillUrl" time="2.078"/>
-  <testcase classname="org.seckill.service.SeckillServiceTest" name="testGetById" time="0.01"/>
-  <testcase classname="org.seckill.service.SeckillServiceTest" name="testExecuteSeckill" time="0.006"/>
-  <testcase classname="org.seckill.service.SeckillServiceTest" name="testGetSeckillList" time="0"/>
+  <testcase classname="org.seckill.dao.cache.RedisDaoTest" name="testSeckill" time="3.54"/>
 </testsuite>

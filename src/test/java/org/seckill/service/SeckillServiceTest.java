@@ -1,6 +1,5 @@
 package org.seckill.service;
 
-import static org.junit.Assert.*;
 
 import java.util.List;
 
@@ -11,7 +10,6 @@ import org.seckill.dto.SeckillExecution;
 import org.seckill.entity.Seckill;
 import org.seckill.exception.RepeatKillExecution;
 import org.seckill.exception.SeckillCloseException;
-import org.seckill.exception.SeckillException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -80,7 +78,17 @@ public class SeckillServiceTest {
 			//ÃëÉ±Î´¿ªÆô
 			logger.warn("exposer={}", exposer);
 		}
-		
 	}
-
+	
+	@Test
+	public void executeSeckillProcedure(){
+		long seckillId = 1003;
+		long userPhone = 13511111114L;
+		Exposer exposer = seckillService.exportSeckillUrl(seckillId);
+		if(exposer.isExposed()){
+			String md5 = exposer.getMd5();
+			SeckillExecution execution = seckillService.executeSeckillProcedure(seckillId, userPhone, md5);
+			logger.info(execution.getStateInfo());
+		}
+	}
 }
